@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,600;1,900&display=swap');
+
+* {
+    font-family: "Raleway";
+}
+
+#crosshair {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#crosshair-ui {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 35%;
+    height: 35%;
+    color: white;
+    border: 2px solid #9b9b9b;
+    border-radius: 8px;
+    background-color: #1f2533;
+}
+
+#crosshair-ui-submit {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: .175rem 1rem;
+    background-color: #9b9b9b;
+}
+
+#crosshair-ui-url {
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10px 0;
+    border: 2px solid #eee;
+    position: absolute;
+    width: 50%;
+    color: #9b9b9b;
+    height: 5%;
+    padding: 4px;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #1f2533;
+    border-radius: 8px;
+}
+
+#crosshair-ui-size {
+    margin: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10px 0;
+    border: 2px solid #eee;
+    position: absolute;
+    width: 50%;
+    color: #9b9b9b;
+    height: 5%;
+    padding: 4px;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #1f2533;
+    border-radius: 8px;
+}
+
+
+#crosshair-ui-url-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 27.75%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-size-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 57.75%;
+    left: 50%;
+    
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-title {
+    text-align: center;
+}
